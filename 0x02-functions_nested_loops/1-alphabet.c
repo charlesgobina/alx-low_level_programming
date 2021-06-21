@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
+#include "holberton.h"
 
 /**
  * print_alphabet - print alphabet
@@ -14,8 +12,8 @@ void print_alphabet(void)
 
 	while (alpha <= 'z')
 	{
-		putchar(alpha);
+		_putchar(alpha);
 		alpha++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
