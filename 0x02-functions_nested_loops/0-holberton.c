@@ -1,6 +1,5 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
+#include "holberton.h"
+
 /**
  * main - prints holberton
  *
@@ -10,7 +9,14 @@
  */
 int main(void)
 {
-	printf("Holberton");
-	printf("\n");
+	char word[10] = "Holberton";
+	int i;
+
+	for (i = 0; i <= 10; i++)
+	{
+		_putchar(word[i]);
+	}
+	_putchar('\n');
+
 	return (0);
 }
